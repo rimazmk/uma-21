@@ -18,3 +18,8 @@ pages:
       - public
   only:
     - master
+
+job:
+  tags:
+    - pages
+    
