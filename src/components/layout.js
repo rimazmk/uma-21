@@ -13,7 +13,6 @@ import Header from "./header"
 import Hero from "./Hero"
 import "../css/layout.css"
 
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -31,7 +30,7 @@ const Layout = ({ children }) => {
       <Hero />
       <div
         style={{
-          margin: `0 auto`,
+          margin: `20px auto`,
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
         }}

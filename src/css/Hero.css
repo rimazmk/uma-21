@@ -1,7 +1,9 @@
 .hero {
+  top: 0;
   height: 100vh;
   width: 100vw;
-  background-image: url("../images/boat.jpg");
+  background-image: url("../images/boat2.jpg");
+  background-size: cover;
 }
 
 .hero-container {
